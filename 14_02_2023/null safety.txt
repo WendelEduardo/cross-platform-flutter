@@ -1,0 +1,8 @@
+void main() {
+  
+  // null safety
+  isEmpy(null);
+  
+}
+
+bool isEmpy(String? mensagem) => mensagem ==null || mensagem.length == 0;

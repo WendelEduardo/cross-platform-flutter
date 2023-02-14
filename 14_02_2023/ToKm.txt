@@ -1,0 +1,10 @@
+
+void main() {
+  double mile = 2;
+  const toKm = 1.609;
+  
+  print('Mile = ${mile}');
+  print('Km = ${calc(mile, toKm)}');
+}
+
+double calc(double mile, double km) => mile*km;

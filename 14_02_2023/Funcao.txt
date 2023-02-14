@@ -1,0 +1,13 @@
+void main() {
+  print(stringLength('fds'));
+  print(mesmoMetodo(null));
+}
+
+int? stringLength(String? nullabelString) {
+  if (nullabelString == null) {
+    return null;
+  }
+  return nullabelString.length;
+}
+
+int? mesmoMetodo(String? nullabelString) => nullabelString == null ? null : nullabelString.length; 
