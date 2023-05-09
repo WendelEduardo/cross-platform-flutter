@@ -1,0 +1,1 @@
+enum TipoTransacao { RECEITA, DESPESA }
